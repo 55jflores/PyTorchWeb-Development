@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<title>New Posts</title>
+
+<h1>Enter Post</h1>
+<form action = "{{ url_for('my_post') }}" method="post" enctype="multipart/form-data">
+<input type=file name=file><br><br>
+<label for="username">Username</label>
+<input type="text" id="user" name="uname"><br><br>
+<label for="username">Caption</label>
+<textarea name="caption"></textarea><br><br>
+<input type=submit value=Upload><br><br>
+
+</form>
+
+{% if probability %}
+    <p>{{ animal }} : {{ probability }} %</p>
+{% endif %}

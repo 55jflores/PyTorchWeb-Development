@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<title>Posts</title>
+
+{% for i in range(my_index) %}
+    <div>
+        <p><b>{{ usernames[i] }}</b></p>
+        <img src= "uploads/{{ images[i] }}" alt="Oops" width="224" height="224">
+        <p>{{ captions[i] }}</p>
+
+    </div>
+{% endfor %}
