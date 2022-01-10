@@ -1,1 +1,1 @@
-# Repository for my Web Development projects
+# Repository for my PyTorch Web Development projects
