@@ -1,7 +1,7 @@
 # Created a mock social-media based application 
 Used Pytorch to classify images as a cat or dog. 
 <br> Used SQLite to store users username, image and caption
-<br> Used Jinja to display the username, image and captions that were stored in the database
+<br> Used Jinja to display the username, image and captions in the appropriate url path
 <br><br>
 Dog Page <br>
 ![dogPage](https://user-images.githubusercontent.com/53010808/128254029-968a5994-12b2-4bfb-ad6e-b9edca3de458.PNG)
